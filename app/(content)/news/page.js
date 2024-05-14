@@ -5,7 +5,7 @@ import {getAllNews} from "@/lib/news";
 
 async function NewsPage() {
 
-    const news = getAllNews()
+    const news = await getAllNews()
 
 
     return (
